@@ -52,7 +52,7 @@ var app = {
     addIframe : function () {
         i = document.createElement("iframe");
 
-        i.src = "https://example.org";
+        i.src = "https://intelsoftware.thetrainingarcade.com/games/jump/#!/optane";
         i.addEventListener('load', this.iframeLoaded, false);
 
         document.body.appendChild(i);
